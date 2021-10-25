@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: Roboto;
 }
@@ -74,8 +75,8 @@
   margin-left: 45px;
   border-radius: 25px 25px 25px 25px;
   margin-top: 30px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
 }
 
 .bloc1 {
@@ -195,9 +196,157 @@
   width: auto;
 }
 
+/*FOOTER*/
 .foot {
   background-color: grey;
+  height: 200px;
+  width: 400px;
+}
+
+.divlienFoot {
+  height: 30px;
+}
+
+.lienFoot {
+  color: black;
+  font-size: 15px;
+}
+
+.decorationNone {
+  text-decoration: none;
+  color: black;
+}
+
+.tailleBlocFoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150px;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+/*La note enchantée*/
+.imglanoteenchanteeFond {
+  background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+.Shrikhand {
+  font-family: Shrikhand;
+}
+
+.imgalafrancaiseFond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   height: 300px;
-  width: 375px;
+}
+
+.divlienFoot {
+  height: 30px;
+}
+
+.lienFoot {
+  color: black;
+  font-size: 15px;
+}
+
+.decorationNone {
+  text-decoration: none;
+  color: black;
+}
+
+.tailleBlocFoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 150px;
+  -webkit-box-flex: 30%;
+  -ms-flex: 30%;
+  flex: 30%;
+}
+
+/*La note enchantée*/
+.imglanoteenchanteeFond {
+  background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.Shrikhand {
+  font-family: Shrikhand;
+  color: black;
+  font-size: 30px;
+}
+
+h2 p {
+  font-family: roboto;
+}
+
+.pageCarte {
+  background-color: #f2f2f2;
+  font-size: small;
+  width: 100%;
+  height: 1500px;
+  text-decoration: none;
+}
+
+.structure {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  border-radius: 15px 15px 15px 15px;
+}
+/* page a la francaise */
+/* la palette du gout*/
+.imglapalettedugoutFond {
+  background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+/* le delice des sens*/
+.imgledelicedessensFond {
+  background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 25px 25px 0 0;
 }
 /*# sourceMappingURL=styles.css.map */

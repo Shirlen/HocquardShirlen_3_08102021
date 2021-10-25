@@ -1,13 +1,10 @@
-$primary: #9356dc;
-$secondary: #ff79da;
-$tertiary: #99e2d0;
-
-* {
-  font-family: Roboto;
-}
-
+@charset "UTF-8";
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 50px;
   width: 375px;
@@ -15,20 +12,34 @@ $tertiary: #99e2d0;
 }
 
 .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 10px;
 }
 
 .lieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .localisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 50px;
   width: auto;
@@ -36,12 +47,18 @@ $tertiary: #99e2d0;
 }
 
 .pub {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 50px;
 }
 
 .decouvrez {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-left: 50px;
 }
@@ -54,7 +71,8 @@ $tertiary: #99e2d0;
   margin-left: 45px;
   border-radius: 25px 25px 25px 25px;
   margin-top: 30px;
-  background: linear-gradient($secondary, $primary);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
 }
 
 .bloc1 {
@@ -79,14 +97,24 @@ $tertiary: #99e2d0;
 }
 
 .flexCentre {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 20em;
 }
 
 #restaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -98,12 +126,19 @@ $tertiary: #99e2d0;
 }
 
 .cartes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: 20px 30px 15px 20px;
 }
 
 .carte {
+  -webkit-box-flex: 30%;
+  -ms-flex: 30%;
   flex: 30%;
   border: 1px solid white;
   border-radius: 15px;
@@ -116,6 +151,11 @@ $tertiary: #99e2d0;
   padding: 1%;
   text-decoration: none;
   color: black;
+}
+
+.prix {
+  display: flex;
+  justify-content: end;
 }
 
 .imglapalettedugout {
@@ -181,52 +221,6 @@ $tertiary: #99e2d0;
 }
 
 .tailleBlocFoot {
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  flex: 30%;
-}
-
-/*La note enchantée*/
-
-.imglanoteenchanteeFond {
-  background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
-}
-
-.Shrikhand {
-  font-family: Shrikhand;
-}
-
-.imgalafrancaiseFond {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 300px;
-}
-
-.divlienFoot {
-  height: 30px;
-}
-
-.lienFoot {
-  color: black;
-  font-size: 15px;
-}
-
-.decorationNone {
-  text-decoration: none;
-  color: black;
-}
-
-.tailleBlocFoot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,10 +255,15 @@ h2 p {
 }
 
 .pageCarte {
+  -webkit-box-flex: 30%;
+  -ms-flex: 30%;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px 30px 0 0;
   background-color: #f2f2f2;
   font-size: small;
   width: 100%;
   height: 1500px;
+  padding: 1%;
   text-decoration: none;
 }
 
@@ -278,6 +277,14 @@ h2 p {
 /*# sourceMappingURL=styles.css.map */
 
 /* page a la francaise */
+
+.imgalafrancaiseFond {
+  background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
 
 /* la palette du gout*/
 
@@ -297,10 +304,4 @@ h2 p {
   background-position: center;
   width: 100%;
   height: 300px;
-}
-
-.title {
-  display: flex;
-  background-color: #f2f2f2;
-  border-radius: 25px 25px 0 0;
 }
