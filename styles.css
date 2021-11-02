@@ -77,6 +77,8 @@
   margin-top: 30px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background: linear-gradient(#ff79da, #9356dc);
+  margin-top: 70px;
+  margin-left: 60px;
 }
 
 .bloc1 {
@@ -162,6 +164,9 @@
   background-position: center;
   width: 100%;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 15px 15px 0 0;
 }
 
@@ -171,6 +176,9 @@
   background-position: center;
   width: 100%;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 15px 15px 0 0;
 }
 
@@ -180,6 +188,9 @@
   background-position: center;
   width: 100%;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 15px 15px 0 0;
 }
 
@@ -189,6 +200,9 @@
   background-position: center;
   width: 100%;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 15px 15px 0 0;
 }
 
@@ -198,9 +212,9 @@
 
 /*FOOTER*/
 .foot {
-  background-color: #f2f2f2;
-  height: 200px;
-  width: 400px;
+  background-color: grey;
+  height: auto;
+  width: auto;
 }
 
 .divlienFoot {
@@ -208,8 +222,10 @@
 }
 
 .lienFoot {
-  color: black;
   font-size: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
 }
 
 .decorationNone {
@@ -237,7 +253,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 200px;
+  height: 120px;
 }
 
 .Shrikhand {
@@ -260,16 +276,11 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 300px;
+  height: 120px;
 }
 
 .divlienFoot {
   height: 30px;
-}
-
-.lienFoot {
-  color: black;
-  font-size: 15px;
 }
 
 .decorationNone {
@@ -297,7 +308,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 300px;
+  height: 120px;
 }
 
 .Shrikhand {
@@ -314,27 +325,43 @@
 
 .pageCarte {
   background-color: #f2f2f2;
-  font-size: medium;
   width: 100%;
-  height: 1300px;
+  height: 1400px;
   text-decoration: none;
+  font-size: small;
+}
+
+.pageCarte1 {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 1500px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.pageCarte1 h2 {
+  font-weight: bold;
 }
 
 .structure {
   background-color: white;
-  width: 100%;
   height: 80px;
   border-radius: 15px 15px 15px 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  padding: 10px;
 }
 .imglapalettedugoutFond {
   background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 300px;
+  height: 120px;
 }
 
 /* le delice des sens*/
@@ -343,7 +370,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 300px;
+  height: 120px;
 }
 
 .title {
@@ -361,19 +388,70 @@
 }
 
 .prix {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   font-weight: bold;
-  margin-right: 5px;
-  margin-bottom: 30px;
+  text-align: right;
 }
 
 .deco {
   border-bottom: 1px solid #99e2d0;
   width: 40px;
+  margin-left: 15px;
+}
+
+.imgRestaurants {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.footerLogo {
+  margin-left: 15px;
+}
+
+.texte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.texte h2 {
+  margin-bottom: 0;
+}
+
+.align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 20%;
 }
 /*# sourceMappingURL=styles.css.map */
