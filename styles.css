@@ -3,6 +3,10 @@
   font-family: roboto;
 }
 
+.grey {
+  color: lightgrey;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,18 +91,72 @@
 }
 
 /*$boutons*/
+/*
 .choix {
   border: 2px solid #f2f2f2;
   border-radius: 30px;
   margin-right: 20px;
   margin-top: 30px;
 }
-
-.choix1 {
-  height: 50px;
+*/
+.choix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
   padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 25px;
+  border: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+  position: relative;
+  background-color: white;
+  -webkit-box-shadow: 7px 4px 1px 1px #f3f1f1;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.choix:hover {
+  background-color: #ff79da;
+}
+
+.choix3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 25px;
+  border: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+  position: relative;
+  background-color: #ff79da;
+  -webkit-box-shadow: 20px 20px 6px 1px #cfcdcd;
+  opacity: 1;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.choix3:hover {
+  background-color: #d3c7d3;
+}
+
+.floatNumber {
+  position: absolute;
+  left: -5px;
+  color: white;
+  background-color: #9356dc;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+.espaceTitre {
+  margin-left: 15px;
 }
 
 .flexCentre {
@@ -112,6 +170,11 @@
       -ms-flex-align: center;
           align-items: center;
   width: 20em;
+}
+
+.filtreIcone {
+  width: 45px;
+  height: 45px;
 }
 
 #restaurants {
