@@ -5,13 +5,12 @@ $grey: #f2f2f2;
 
 * {
   font-family: roboto;
+  
 }
 
 .grey {
   color: lightgrey;
 }
-
-
 
 .logo {
   display: flex;
@@ -80,6 +79,26 @@ $grey: #f2f2f2;
   margin-top: 30px;
 }
 */
+.valider {
+  background-color: #15dea5;
+  width: 80px;
+  height: 95px;
+ /* animation: valider 3s linear infinite paused; */
+  border-radius: 0px 25px 25px 0px;
+  display: none;
+}
+
+/*
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+*/
 
 .choix {
   display: flex;
@@ -109,7 +128,6 @@ $grey: #f2f2f2;
   position: relative;
   background-color: $secondary;
   -webkit-box-shadow: 20px 20px 6px 1px #cfcdcd;
-  opacity: 1;
   transition: background-color 2s;
   &:hover {
     background-color: rgb(211, 199, 211);
@@ -348,6 +366,57 @@ $grey: #f2f2f2;
   display: flex;
   margin: 15px;
   padding: 10px;
+  &:hover{
+    .valider{
+      display: block;
+      animation: push 1s ease-out;
+      <i class="fas fa-check-circle"></i>
+  
+    }
+  }
+}
+@keyframes push{
+ 
+  0%{
+    display: block;
+    width: 0px;
+  }
+  100%{
+    display: block;
+  width: 100px;
+  }
+
+}
+.repas1{
+  animation: fadein 1s ease-out;
+}
+
+.repas2 
+{
+  animation: fadein 1.2s ease-out;
+}
+
+
+.repas3
+{
+  animation: fadein 1.4s ease-out;
+}
+
+@keyframes fadein {
+  0%{
+    display: none;
+    opacity: 0;
+}
+1% {
+  display: block;
+  opacity: 0;
+  transform: translateY(20px);
+}
+100%{
+  display: block;
+  opacity: 1;
+  transform:translateY(0px)
+}
 }
 
 /*# sourceMappingURL=styles.css.map */
