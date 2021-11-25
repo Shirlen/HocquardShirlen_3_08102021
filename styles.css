@@ -12,14 +12,25 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 50px;
+  margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 30rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
+.logo i {
+  width: 5rem;
+}
+
+/*.logotitre
+{
+  align-content: center;
+}
+*/
 .map {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,6 +199,7 @@
       -ms-flex-align: center;
           align-items: center;
   width: 20em;
+  margin-left: 85px;
 }
 
 .filtreIcone {
@@ -585,17 +597,24 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  max-width: 30rem;
+  margin: auto;
 }
 
 .footerLogo {
   margin-left: 15px;
   margin-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  font-family: Shrikhand;
+  font-size: 20px;
 }
 
 .foot {
   width: 30rem;
   max-width: 30rem;
   background-color: gray;
+  margin: auto;
   margin-top: 200px;
 }
 
@@ -748,18 +767,18 @@ input {
   left: -3px;
 }
 
-input:checked ~ .container .icone {
+.container:hover .icone {
   margin-right: 0;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
 }
 
-input:checked ~ .container i {
+.container:hover i {
   margin-right: 0;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
   -webkit-transform: rotate(360deg);

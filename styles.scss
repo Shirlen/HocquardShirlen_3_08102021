@@ -14,11 +14,21 @@ $grey: #f2f2f2;
 
 .logo {
   display: flex;
-  justify-content: center;
   height: 50px;
+  margin:auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 30rem;
+  align-items: center;
+  i{
+    width: 5rem;
+  }
 }
+/*.logotitre
+{
+  align-content: center;
+}
+*/
 
 .map {
   display: flex;
@@ -149,6 +159,7 @@ $grey: #f2f2f2;
   justify-content: center;
   align-items: center;
   width: 20em;
+  margin-left: 85px;
 }
 
 .filtreIcone {
@@ -458,17 +469,24 @@ $grey: #f2f2f2;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  max-width: 30rem;
+  margin: auto;
 }
 
 .footerLogo {
   margin-left: 15px;
   margin-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  font-family: Shrikhand;
+  font-size: 20px;
 }
 
 .foot {
   width: 30rem;
   max-width: 30rem;
   background-color: gray;
+  margin: auto;
   margin-top: 200px;
 }
 
@@ -510,7 +528,6 @@ label {
   margin: auto;
   position: relative;
   background-color: $grey;
-  
 }
 .container {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -573,16 +590,16 @@ input {
   cursor: pointer;
   left: -3px;
 }
-
-input:checked ~ .container .icone {
-  margin-right: 0;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-}
-
-input:checked ~ .container i {
-  margin-right: 0;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transform: rotate(360deg);
+.container:hover {
+  .icone {
+    margin-right: 0;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  i {
+    margin-right: 0;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transform: rotate(360deg);
+  }
 }
