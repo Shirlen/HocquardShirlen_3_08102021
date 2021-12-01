@@ -15,20 +15,21 @@ $grey: #f2f2f2;
 .logo {
   display: flex;
   height: 50px;
-  margin:auto;
+  margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 30rem;
   align-items: center;
-  i{
+  i {
     width: 5rem;
   }
 }
-/*.logotitre
-{
+.logotitre {
   align-content: center;
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-bottom: 20px;
 }
-*/
 
 .map {
   display: flex;
@@ -47,8 +48,16 @@ $grey: #f2f2f2;
   display: flex;
   justify-content: center;
   height: 50px;
-  width: auto;
+  width: 100%;
   background-color: $grey;
+  box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+#home {
+  width: 30rem;
+  max-width: 30rem;
+  margin: auto;
+  position: relative;
+  background-color: #f2f2f2;
 }
 
 .pub {
@@ -259,12 +268,6 @@ $grey: #f2f2f2;
 }
 
 /*FOOTER*/
-
-.foot {
-  background-color: grey;
-  height: auto;
-  width: auto;
-}
 
 .divlienFoot {
   height: 30px;
@@ -485,7 +488,7 @@ $grey: #f2f2f2;
 .foot {
   width: 30rem;
   max-width: 30rem;
-  background-color: gray;
+  background-color: #515050;
   margin: auto;
   margin-top: 200px;
 }
@@ -496,6 +499,20 @@ $grey: #f2f2f2;
   width: 80%;
   h2 {
     margin-bottom: 0;
+  }
+}
+
+.likeIndex {
+}
+
+.restoTexte {
+  display: flex;
+  align-items: center;
+  .detailResto {
+    flex: 80%;
+  }
+  .likeIndex {
+    flex: 20%;
   }
 }
 
