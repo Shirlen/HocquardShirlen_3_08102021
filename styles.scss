@@ -502,7 +502,42 @@ $grey: #f2f2f2;
   }
 }
 
+.restoSection {
+  width: 30rem;
+  margin: auto;
+  background-color:#f3f1f1;
+}
+
 .likeIndex {
+  position: relative;
+  .coeurVide {
+    display: block;
+    opacity: 1;
+    transition: opacity 2s;
+  }
+  .coeurPlein {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    z-index: 2;
+    top: -2px;
+    // animation: animcoeurPlein;
+    transition: opacity 2s;
+  }
+  &:hover {
+    .coeurPlein {
+      display: block;
+      opacity: 1;
+      position: absolute;
+
+      z-index: 2;
+      top: -2px;
+    }
+    .coeurVide {
+      //  display: none;
+      opacity: 0;
+    }
+  }
 }
 
 .restoTexte {

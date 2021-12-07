@@ -640,6 +640,45 @@
   margin-bottom: 0;
 }
 
+.restoSection {
+  width: 30rem;
+  margin: auto;
+  background-color: #f3f1f1;
+}
+
+.likeIndex {
+  position: relative;
+}
+
+.likeIndex .coeurVide {
+  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.likeIndex .coeurPlein {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  z-index: 2;
+  top: -2px;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.likeIndex:hover .coeurPlein {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  top: -2px;
+}
+
+.likeIndex:hover .coeurVide {
+  opacity: 0;
+}
+
 .restoTexte {
   display: -webkit-box;
   display: -ms-flexbox;
