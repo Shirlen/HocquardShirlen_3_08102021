@@ -1,203 +1,197 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/2f5b86a7bc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
-        rel="stylesheet">
-    <title>Oh my food</title>
-
-</head>
-<body id="home">
-    <header>
-
-        <div class="loadcontent">
-            <div class="loading"></div>
-        </div>
-        <div class="logotitre">
-
-            <div><img src="images/logo/ohmyfood.png" alt="Logo ohmyfood" width="200" height="30" /></div>
-        </div>
-
-        <div class="localisation"><i class="fas fa-map-marker-alt map"></i>
-            <div class="lieu">Paris,Belleville</div>
-        </div>
-
-        <div class="bloc1">
-            <h1 class="pub"><center>Réserver le menu qui vous convient</center></h1>
-            <p class="decouvrez"><center>Découvrez des restaurants d'exception, séléctionnés par nos soins</center></p>
-
-            <div><input class="recherche flexCentre" type="button" value="Explorez nos restaurants" /></div>
-        </div>
-    </header>
-    <nav>
-        <div class="espaceTitre">
-            <h1>Fonctionnement</h1>
-        </div>
-
-        <div class="choix">
-            <div class="floatNumber">1</div>
-            <i class="fas fa-mobile-alt filtreIcone flexCentre grey"></i>
-            <div>Choisissez un restaurant</div>
-        </div>
-
-
-        <div class="choix">
-            <div class="floatNumber">2</div>
-            <i class="fas fa-list filtreIcone flexCentre grey"></i>
-            <div>Composez votre menu</div>
-        </div>
-
-        <div class="choix3 ">
-            <div class="floatNumber">3</div>
-            <i class="fas fa-store filtreIcone flexCentre grey"></i>
-            <div>Dégustez au restaurant</div>
-        </div>
-
-    </nav>
-    <section1>
-
-        <div class="espaceTitre">
-            <h1>Restaurant</h1>
-        </div>
-
-        <section id="restaurants">
-
-            <div class="resto">
-                <div class="cartes">
-                    <a href="la_palette_du_gout.html" class="carte">
-
-                        <div class="cubeResto flexcolumncentre">
-                            <div class="floatNew">nouveau</div>
-                            <div class="imglapalettedugout"></div>
-                        </div>
-                        <div class="restoTexte">
-                            <div class="detailResto">
-                                <h2>La palette du gout</h2>
-                                <p>Menilmontant</p>
-                            </div>
-
-                            <div class="likeIndex">
-                                <svg  class="coeurVide" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path
-                                        d="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
-                                </svg>
-                                <svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <defs>
-                                        <linearGradient id="MyGradient" gradientTransform="rotate(90)">
-                                            <stop offset="5%" stop-color="pink" />
-                                            <stop offset="95%" stop-color="purple" />
-                                        </linearGradient>
-                                    </defs>
-                                    <path fill="url(#MyGradient)"
-                                        d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-
-
-                    <a href="la_note_enchantee.html" class="carte">
-                        <div class="cubeResto flexcolumncentre">
-                            <div class="imglanoteenchantee"></div>
-                        </div>
-                        <div class="restoTexte">
-                            <div class="detailResto">
-                                <h2>La note enchantée</h2>
-                                <p>Charonne</p>
-                            </div>
-                            <div class="likeIndex">
-                                <svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path
-                                        d="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
-                                </svg>
-                                <svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                   
-                                    <path fill="url(#MyGradient)"
-                                        d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="a_la_francaise.html" class="carte">
-                        <div class="cubeResto">
-                            <div class="imgalafrancaise"></div>
-                        </div>
-                        <div class="restoTexte">
-                            <div class="detailResto">
-                                <h2>A la francaise</h2>
-                                <p>Cité rouge</p>
-                            </div>
-                            <div class="likeIndex">
-                                <svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path
-                                        d="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
-                                </svg>
-                                <svg class="coeurPlein"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                   
-                                    <path fill="url(#MyGradient)"
-                                        d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="le_delice_des_sens.html#" class="carte">
-                        <div class="cubeResto">
-                            <div class="imgledelicedessens"></div>
-                        </div>
-                        <div class="restoTexte">
-                            <div class="detailResto">
-                                <h2>Le délice des sens</h2>
-                                <p>Folie méricourt</p>
-                            </div>
-                            <div class="likeIndex">
-                                <svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path
-                                        d="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
-                                </svg>
-                                <svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                  
-                                    <path fill="url(#MyGradient)"
-                                        d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-
-    </section1>
-    <footer>
-        <div class="foot">
-            <div class="footerLogo">ohmyfood
-            </div>
-
-            <div class="tailleBlocFoot">
-                <div class="divlienFoot">
-                    <div><a href="#" class="lienFoot"><i class="fas fa-utensils"></i>
-                            Proposer un restaurant</a></div>
-
-                    <div><a href="#" class="lienFoot"><i class="far fa-handshake"></i>
-                            Devenir partenaire</a></div>
-
-                    <div><a href="#" class="lienFoot">
-                            Mentions legales</a></div>
-
-                    <div><a href="#" class="lienFoot">
-                            Contact</a></div>
-
-
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="https://kit.fontawesome.com/2f5b86a7bc.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<linkhref="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"rel="stylesheet"/>
+		<title>Oh my food</title>
+	</head>
+	<body id="home">
+		<header>
+			<div class="loadcontent">
+				<div class="loading"></div>
+			</div>
+			<div class="logotitre">
+				<div>
+					<img src="images/logo/ohmyfood.png" alt="Logo ohmyfood" width="200" height="30" />
+				</div>
+			</div>
+			<div class="localisation">
+				<i class="fas fa-map-marker-alt map"></i>
+				<div class="lieu">
+					Paris,Belleville
+				</div>
+			</div>
+			<div class="bloc1">
+				<h1 class="pub"><center>Réserver le menu qui vous convient</center></h1>
+				<div class="decouvrez">
+						Découvrez des restaurants d'exception, séléctionnés par nos soins
+				</div>
+				<div>
+					<input class="recherche" type="button" value="Explorez nos restaurants" />
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="espaceTitre">
+				<h1>Fonctionnement</h1>
+			</div>
+			<div class="choix">
+				<div class="floatNumber">
+					1
+				</div>
+				<i class="fas fa-mobile-alt filtreIcone flexCentre grey"></i>
+				<div>
+					Choisissez un restaurant
+				</div>
+			</div>
+			<div class="choix">
+				<div class="floatNumber">
+					2
+				</div>
+				<i class="fas fa-list filtreIcone flexCentre grey"></i>
+				<div>
+					Composez votre menu
+				</div>
+			</div>
+			<div class="choix3 ">
+				<div class="floatNumber">
+					3
+				</div>
+				<i class="fas fa-store filtreIcone flexCentre grey"></i>
+				<div>
+					Dégustez au restaurant
+				</div>
+			</div>
+		</nav>
+		<section id="restaurants">
+			<div class="espaceTitre">
+				<h1>Restaurant</h1>
+			</div>
+			<div class="resto">
+				<div class="cartes">
+					<a href="la_palette_du_gout.html" class="carte">
+						<div class="cubeResto flexcolumncentre">
+							<div class="floatNew">
+								nouveau
+							</div>
+							<div class="imglapalettedugout"></div>
+						</div>
+						<div class="restoTexte">
+							<div class="detailResto">
+								<h2>La palette du gout</h2>
+								<p>
+									Menilmontant
+								</p>
+							</div>
+							<div class="likeIndex">
+								<svg  class="coeurVide" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<pathd="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
+								</svg>
+								<svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<defs>
+										<linearGradient id="MyGradient" gradientTransform="rotate(90)">
+											<stop offset="5%" stop-color="pink" />
+											<stop offset="95%" stop-color="purple" />
+										</linearGradient>
+									</defs>
+									<path fill="url(#MyGradient)"d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+								</svg>
+							</div>
+						</div>
+					</a>
+					<a href="la_note_enchantee.html" class="carte">
+						<div class="cubeResto flexcolumncentre">
+							<div class="imglanoteenchantee"></div>
+						</div>
+						<div class="restoTexte">
+							<div class="detailResto">
+								<h2>La note enchantée</h2>
+								<p>
+									Charonne
+								</p>
+							</div>
+							<div class="likeIndex">
+								<svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<pathd="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
+								</svg>
+								<svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<path fill="url(#MyGradient)"d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+								</svg>
+							</div>
+						</div>
+					</a>
+					<a href="a_la_francaise.html" class="carte">
+						<div class="cubeResto">
+							<div class="imgalafrancaise"></div>
+						</div>
+						<div class="restoTexte">
+							<div class="detailResto">
+								<h2>A la francaise</h2>
+								<p>
+									Cité rouge
+								</p>
+							</div>
+							<div class="likeIndex">
+								<svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<pathd="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
+								</svg>
+								<svg class="coeurPlein"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<path fill="url(#MyGradient)"d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+								</svg>
+							</div>
+						</div>
+					</a>
+					<a href="le_delice_des_sens.html#" class="carte">
+						<div class="cubeResto">
+							<div class="imgledelicedessens"></div>
+						</div>
+						<div class="restoTexte">
+							<div class="detailResto">
+								<h2>Le délice des sens</h2>
+								<p>
+									Folie méricourt
+								</p>
+							</div>
+							<div class="likeIndex">
+								<svg class="coeurVide"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<pathd="M17.516 3c2.382 0 4.487 1.564 4.487 4.712 0 4.963-6.528 8.297-10.003 11.935-3.475-3.638-10.002-6.971-10.002-11.934 0-3.055 2.008-4.713 4.487-4.713 3.18 0 4.846 3.644 5.515 5.312.667-1.666 2.333-5.312 5.516-5.312zm0-2c-2.174 0-4.346 1.062-5.516 3.419-1.17-2.357-3.342-3.419-5.515-3.419-3.403 0-6.484 2.39-6.484 6.689 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-4.586-3.414-6.689-6.484-6.689z" />
+								</svg>
+								<svg class="coeurPlein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									<path fill="url(#MyGradient)"d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+								</svg>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="foot">
+				<div class="footerLogo">
+					ohmyfood
+				</div>
+				<div class="tailleBlocFoot">
+					<div class="divlienFoot">
+						<div>
+							<a href="#" class="lienFoot"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+						</div>
+						<div>
+							<a href="#" class="lienFoot"><i class="far fa-handshake"></i>Devenir partenaire</a>
+						</div>
+						<div>
+							<a href="#" class="lienFoot">Mentions legales</a>
+						</div>
+						<div>
+							<a href="#" class="lienFoot">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
