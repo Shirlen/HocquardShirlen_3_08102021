@@ -156,14 +156,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 60px;
   margin-top: 50px;
 }
 
 .decouvrez {
   text-align: center;
-  width: 350px;
+  width: 80%;
   color: grey;
+  margin: auto;
 }
 
 .recherche {
@@ -171,7 +171,6 @@
   width: 300px;
   color: white;
   cursor: pointer;
-  margin-left: 45px;
   border-radius: 25px 25px 25px 25px;
   margin-top: 30px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
@@ -183,7 +182,9 @@
 
 .bloc1 {
   height: 300px;
-  width: 300px;
+  width: auto;
+  max-width: 450px;
+  text-align: center;
 }
 
 .valider {
