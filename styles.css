@@ -90,7 +90,8 @@
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 300px;
+  width: auto;
+  max-width: 450px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -164,6 +165,10 @@
   width: 80%;
   color: grey;
   margin: auto;
+}
+
+.boxRecherche {
+  text-align: center;
 }
 
 .recherche {
@@ -675,6 +680,8 @@
 
 .foot {
   width: auto;
+  max-width: 450px;
+  margin: auto;
   background-color: #515050;
 }
 
@@ -803,6 +810,8 @@
   display: flex;
   overflow: hidden;
   max-width: 100%;
+  background-color: white;
+  margin: 20px 0px;
 }
 
 .container:hover .icone {

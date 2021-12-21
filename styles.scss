@@ -60,7 +60,8 @@ $grey: #f2f2f2;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 300px;
+  width: auto;
+  max-width: 450px;
   align-items: center;
   i {
     width: 5rem;
@@ -115,6 +116,10 @@ $grey: #f2f2f2;
   margin: auto;
 }
 
+.boxRecherche{
+  text-align: center;
+}
+
 .recherche {
   height: 4em;
   width: 300px;
@@ -128,6 +133,7 @@ $grey: #f2f2f2;
   font-size: medium;
   margin-bottom: 20px;
 }
+
 
 .bloc1 {
   height: 300px;
@@ -520,6 +526,8 @@ $grey: #f2f2f2;
 
 .foot {
   width: auto;
+  max-width: 450px;
+  margin: auto;
   background-color: #515050;
 }
 
@@ -618,6 +626,8 @@ $grey: #f2f2f2;
   display: flex;
   overflow: hidden;
   max-width: 100%;
+  background-color: white;
+  margin: 20px 0px;
 }
 .container:hover .icone {
   margin-right: 0;
