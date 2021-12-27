@@ -219,7 +219,7 @@
 }
 
 .choix:hover {
-  background-color: #fface8;
+  background-color: #f5edff;
 }
 
 .choix3 {
@@ -235,14 +235,15 @@
           align-items: center;
   margin: 15px;
   position: relative;
-  background-color: #fface8;
-  -webkit-box-shadow: 20px 20px 6px 1px #cfcdcd;
+  background-color: #f5edff;
+  -webkit-box-shadow: 5px 5px 16px 1px #cfcdcd;
+          box-shadow: 5px 5px 16px 1px #cfcdcd;
   -webkit-transition: background-color 2s;
   transition: background-color 2s;
 }
 
 .choix3:hover {
-  background-color: #d3c7d3;
+  background-color: #f5edff;
 }
 
 .floatNumber {
@@ -286,6 +287,10 @@
 .filtreIcone {
   width: 45px;
   height: 45px;
+}
+
+.filtreIcone:hover {
+  background-color: #9356dc;
 }
 
 .flexCentre2 {
@@ -380,7 +385,7 @@
   border-radius: 15px 15px 0 0;
 }
 
-.imgledelicedessens {
+.imglesdelicedessens {
   background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -614,7 +619,7 @@
 }
 
 /* le delice des sens*/
-.imgledelicedessensFond {
+.imglesdelicedessensFond {
   background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
