@@ -162,6 +162,9 @@ $grey: #f2f2f2;
   transition: background-color 2s;
   &:hover {
     background-color:#f5edff;
+    .fas {
+      color:$primary;
+    }
   }
 }
 
@@ -201,9 +204,9 @@ $grey: #f2f2f2;
 .filtreIcone {
   width: 45px;
   height: 45px;
-  &:hover {
 
 }
+  
 .flexCentre2 {
   display: flex;
   justify-content: center;
@@ -536,7 +539,6 @@ $grey: #f2f2f2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-
 }
 
 .restoSection {
@@ -552,6 +554,7 @@ $grey: #f2f2f2;
     display: block;
     opacity: 1;
     transition: opacity 2s;
+    margin-right:10px;
   }
   .coeurPlein {
     position: absolute;
@@ -559,10 +562,12 @@ $grey: #f2f2f2;
     opacity: 0;
     z-index: 2;
     top: -2px;
+    right: 10px;
     // animation: animcoeurPlein;
     transition: opacity 2s;
   }
   &:hover {
+
     .coeurPlein {
       display: block;
       opacity: 1;
@@ -642,6 +647,7 @@ $grey: #f2f2f2;
   display: flex;
   max-width: 100%;
   overflow: hidden;
+  align-items: center;
 }
 .texte {
   width: 100%;
@@ -652,7 +658,7 @@ $grey: #f2f2f2;
 .price {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1rem;
+  margin-bottom: 35px;
   margin-right: 1rem;
   max-width: 100%;
 }
@@ -688,6 +694,7 @@ input {
     transition-duration: 2s;
     transition-timing-function: ease;
   }
+  
   i{
     margin-right: 0;
     transition-duration: 2s;

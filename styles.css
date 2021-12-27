@@ -182,7 +182,7 @@
   background: linear-gradient(#ff79da, #9356dc);
   margin-top: 50px;
   font-size: medium;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .bloc1 {
@@ -222,28 +222,8 @@
   background-color: #f5edff;
 }
 
-.choix3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 60px;
-  padding-left: 20px;
-  border-radius: 25px;
-  border: 1px solid white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 15px;
-  position: relative;
-  background-color: #f5edff;
-  -webkit-box-shadow: 5px 5px 16px 1px #cfcdcd;
-          box-shadow: 5px 5px 16px 1px #cfcdcd;
-  -webkit-transition: background-color 2s;
-  transition: background-color 2s;
-}
-
-.choix3:hover {
-  background-color: #f5edff;
+.choix:hover .fas {
+  color: #9356dc;
 }
 
 .floatNumber {
@@ -287,10 +267,6 @@
 .filtreIcone {
   width: 45px;
   height: 45px;
-}
-
-.filtreIcone:hover {
-  background-color: #9356dc;
 }
 
 .flexCentre2 {
@@ -385,7 +361,7 @@
   border-radius: 15px 15px 0 0;
 }
 
-.imglesdelicedessens {
+.imgledelicedessens {
   background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -619,7 +595,7 @@
 }
 
 /* le delice des sens*/
-.imglesdelicedessensFond {
+.imgledelicedessensFond {
   background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -705,6 +681,18 @@
   margin-bottom: 0;
 }
 
+.texte p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.texte h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .restoSection {
   width: auto;
   max-width: 450px;
@@ -721,6 +709,7 @@
   opacity: 1;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
+  margin-right: 10px;
 }
 
 .likeIndex .coeurPlein {
@@ -729,6 +718,7 @@
   opacity: 0;
   z-index: 2;
   top: -2px;
+  right: 10px;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
 }
@@ -841,6 +831,9 @@
   display: flex;
   max-width: 100%;
   overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .texte {
@@ -857,7 +850,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 1rem;
+  margin-bottom: 35px;
   margin-right: 1rem;
   max-width: 100%;
 }
