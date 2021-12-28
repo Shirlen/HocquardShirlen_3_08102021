@@ -200,6 +200,13 @@
   margin-bottom: 50px;
 }
 
+.recherche:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fface8), to(#ae80e5));
+  background: linear-gradient(#fface8, #ae80e5);
+  -webkit-box-shadow: 7px 4px 1px 1px lightgrey;
+          box-shadow: 7px 4px 1px 1px lightgrey;
+}
+
 .bloc1 {
   height: 300px;
   width: auto;
@@ -404,6 +411,14 @@
   text-decoration: none;
   color: white;
   margin-top: 5px;
+}
+
+.lienFoot i {
+  margin-right: 10px;
+}
+
+.lienFoot a {
+  margin-top: 10px;
 }
 
 .tailleBlocFoot {

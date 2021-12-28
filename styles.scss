@@ -147,8 +147,14 @@ $grey: #f2f2f2;
   margin-top: 50px;
   font-size: medium;
   margin-bottom: 50px;
+  &:hover {
+    background: linear-gradient(
+      lighten($secondary, 10%),
+      lighten($primary, 10%)
+    );
+    box-shadow: 7px 4px 1px 1px lightgrey;
+  }
 }
-
 
 .bloc1 {
   height: 300px;
@@ -186,8 +192,6 @@ $grey: #f2f2f2;
   }
 }
 
-
-
 .floatNumber {
   position: absolute;
   left: -5px;
@@ -223,7 +227,6 @@ $grey: #f2f2f2;
 .filtreIcone {
   width: 45px;
   height: 45px;
-
 }
 
 .flexCentre2 {
@@ -240,8 +243,6 @@ $grey: #f2f2f2;
 .fas fa-arrow-left {
   margin-right: 100px;
 }
-
-
 
 .resto {
   height: auto;
@@ -327,6 +328,14 @@ $grey: #f2f2f2;
   text-decoration: none;
   color: white;
   margin-top: 5px;
+}
+
+.lienFoot i {
+  margin-right: 10px;
+}
+
+.lienFoot a {
+  margin-top: 10px;
 }
 
 .tailleBlocFoot {
@@ -580,12 +589,10 @@ $grey: #f2f2f2;
     }
 
     .coeurPlein {
-      right: 10px
+      right: 10px;
     }
-
   }
 }
-
 
 .likeIndex {
   position: relative;
@@ -594,7 +601,6 @@ $grey: #f2f2f2;
     display: block;
     opacity: 1;
     transition: opacity 2s;
-
   }
 
   .coeurPlein {
@@ -726,15 +732,13 @@ $grey: #f2f2f2;
   transition-timing-function: ease;
 }
 
-.icone>i {
+.icone > i {
   color: #99e2d0;
   padding: 0.5rem;
   border-radius: 50%;
   background: white;
   transition-duration: 0.5s;
 }
-
-
 
 .container:hover {
   .icone {
